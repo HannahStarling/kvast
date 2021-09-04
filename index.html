@@ -14,22 +14,22 @@
       <!-- HEADER START -->
       <header class="header">
         <div class="container">
-          <nav class="menu">
-            <a href="" class="logo"
+          <nav class="menu menu_place_header">
+            <a href="#" class="logo"
               ><img class="logo__pic" src="./img/logo.png" alt="Логотип Кваст"
             /></a>
             <ul class="menu__links">
               <li class="menu__link-item">
-                <a href="#" class="menu__link">История</a>
+                <a href="#history" class="menu__link">История</a>
               </li>
               <li class="menu__link-item">
-                <a href="#" class="menu__link">Производство</a>
+                <a href="#highlights" class="menu__link">Производство</a>
               </li>
               <li class="menu__link-item">
-                <a href="#" class="menu__link">Ассортимент</a>
+                <a href="#range" class="menu__link">Ассортимент</a>
               </li>
               <li class="menu__link-item">
-                <a href="#" class="menu__link">Где купить</a>
+                <a href="#order" class="menu__link">Где купить</a>
               </li>
             </ul>
           </nav>
@@ -45,53 +45,59 @@
               <li class="cards__item">
                 <h3 class="cards__title">Вахтёр</h3>
                 <img src="./img/bottle-left.jpg" alt="" class="cards__pic" />
-                <table class="cards__table">
-                  <caption class="cards__table-ingridients">
-                    Ржаной хлеб, Вода, Солод, Соль
-                  </caption>
-                  <tr class="cards__table-row">
-                    <th class="cards__table-heading">Алк.</th>
-                    <td class="cards__table-data">&lt; 1%</td>
-                  </tr>
-                  <tr class="cards__table-row">
-                    <th class="cards__table-heading">Ккал</th>
-                    <td class="cards__table-data">35</td>
-                  </tr>
-                </table>
+                <div class="cards__info">
+                  <table class="cards__table">
+                    <caption class="cards__table-ingridients">
+                      Ржаной хлеб, Вода, Солод, Соль
+                    </caption>
+                    <tr class="cards__table-row">
+                      <th class="cards__table-heading">Алк.</th>
+                      <td class="cards__table-data">&lt; 1%</td>
+                    </tr>
+                    <tr class="cards__table-row">
+                      <th class="cards__table-heading">Ккал</th>
+                      <td class="cards__table-data">35</td>
+                    </tr>
+                  </table>
+                </div>
                 <p class="cards__text">
                   Терпкий и мощный, вкус этого кваса взбодрит после тяжёлого дня
                   и придаст сил для вечерних приключений!
                 </p>
-                <button class="cards__button cards__button-info">
-                  Подробнее
-                </button>
-                <button class="cards__button cards__button-buy">Купить</button>
+                <a href="#" class="cards__button-info button"> Подробнее </a>
+                <a href="#" class="cards__button-buy button">Купить</a>
                 <p class="cards__price">150 Р.</p>
               </li>
               <li class="cards__item">
                 <h3 class="cards__title">Романтик</h3>
                 <img src="./img/bottle-right.jpg" alt="" class="cards__pic" />
-                <table class="cards__table">
-                  <caption class="cards__table-ingridients">
-                    Ячменный хлеб, Вода, Солод, Апельсин
-                  </caption>
-                  <tr class="cards__table-row">
-                    <th class="cards__table-heading">Алк.</th>
-                    <td class="cards__table-data">&lt; 0,5%</td>
-                  </tr>
-                  <tr class="cards__table-row">
-                    <th class="cards__table-heading">Ккал</th>
-                    <td class="cards__table-data">27</td>
-                  </tr>
-                </table>
+                <div class="cards__info">
+                  <table class="cards__table">
+                    <caption class="cards__table-ingridients">
+                      Ячменный хлеб, Вода, Солод, Апельсин
+                    </caption>
+                    <tbody>
+                      <tr class="cards__table-row">
+                        <th class="cards__table-heading">Алк.</th>
+                        <td class="cards__table-data">&lt; 0,5%</td>
+                      </tr>
+                      <tr class="cards__table-row">
+                        <th class="cards__table-heading">Ккал</th>
+                        <td class="cards__table-data">27</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
                 <p class="cards__text">
                   Лёгкий и освежающий напиток поможет сохранять отличное
                   настроение в течение всего дня.
                 </p>
-                <button class="cards__button cards__button-info">
+                <a href="#" class="button cards__button cards__button-info">
                   Подробнее
-                </button>
-                <button class="cards__button cards__button-buy">Купить</button>
+                </a>
+                <a href="#" class="button cards__button cards__button-buy"
+                  >Купить</a
+                >
                 <p class="cards__price">90 Р.</p>
               </li>
             </ul>
@@ -99,26 +105,23 @@
         </div>
       </section>
       <!-- Секция, блок highlights START -->
-      <section class="highlights">
-        <div class="container">
+      <section id="highlights" class="highlights">
+        <div class="container container_shaped">
           <ul class="highlights__items">
-            <li class="highlights__item">
-              <img src="" alt="" class="highlights__item-pic" />
+            <li class="highlights__item highlights__item_brew-pic">
               <h2 class="highlights__item-title">Варим сами</h2>
               <p class="highlights__item-text">
                 Вот этими самыми руками. Экспериментируем и творим, что хотим.
               </p>
             </li>
-            <li class="highlights__item">
-              <img src="" alt="" class="highlights__item-pic" />
+            <li class="highlights__item highlights__item_matreshka-pic">
               <h2 class="highlights__item-title">Своё, родное</h2>
               <p class="highlights__item-text">
                 Не заработка ради, а импортозамещения для. Поднимаем
                 производство.
               </p>
             </li>
-            <li class="highlights__item">
-              <img src="" alt="" class="highlights__item-pic" />
+            <li class="highlights__item highlights__item_thumbsup-pic">
               <h2 class="highlights__item-title">Не экономим</h2>
               <p class="highlights__item-text">
                 Человек это то, что он ест и пьёт. У нас только качественные
@@ -129,7 +132,7 @@
         </div>
       </section>
       <!-- Секция, блок history START -->
-      <section class="history">
+      <section id="history" class="history">
         <div class="container">
           <h2 class="section-title">Немного истории</h2>
           <ul class="history__list">
@@ -144,15 +147,16 @@
                 </p>
               </div>
               <figure class="history__item-block">
-                <img src="./img/wiki-1.png" alt="" class="history__item-pic" />
                 <figcaption class="history__item-pic-caption">
                   Источник:
                   <a
                     href="ru.wikipedia.org"
+                    target="_blank"
                     class="history__item-pic-caption-link"
                     >ru.wikipedia.org</a
                   >
                 </figcaption>
+                <img src="./img/wiki-1.png" alt="" class="history__item-pic" />
               </figure>
             </li>
             <li class="history__item">
@@ -165,16 +169,16 @@
                   молочнокислого брожения сусла.
                 </p>
               </div>
-
               <figure class="history__item-block">
-                <img src="./img/wiki-2.png" alt="" class="history__item-pic" />
                 <figcaption class="history__item-pic-caption">
                   Источник:<a
                     href="ru.wikipedia.org"
+                    target="_blank"
                     class="history__item-pic-caption-link"
                     >ru.wikipedia.org</a
                   >
                 </figcaption>
+                <img src="./img/wiki-2.png" alt="" class="history__item-pic" />
               </figure>
             </li>
           </ul>
@@ -185,66 +189,81 @@
         <div class="container">
           <h2 class="section-title">Пресса о нас</h2>
           <blockquote class="press__quote">
-            <img class="press__quote-img" src="" alt="" />
-            <q class="press__quot-text"
+            <q class="press__quote-text"
               >Сегодня мы провели дегустацию чего-то действительно новенького —
               крафтового кваса. Да, да, вы не ослышались! Спасибо Арсену и
-              Руслану за то, что предоставили целую бочку своего напитка!
-            </q>
-            <button class="press__quote-btn">Читать далее</button>
+              Руслану за то, что предоставили целую бочку своего напитка!</q
+            >
             <cite class="press__quote-author">Газета столичный Стольник</cite>
+            <a href="#" class="button press__quote-btn">Читать далее</a>
           </blockquote>
         </div>
       </section>
       <!-- Секция, блок range START -->
-      <section class="range">
+      <section id="range" class="range">
         <div class="container">
           <h2 class="section-title">Ассортимент</h2>
-          <table class="range__table">
-            <tr class="range__table-row">
-              <th class="range__table-head">Название</th>
-              <th class="range__table-head">Алк.</th>
-              <th class="range__table-head">Ккал</th>
-              <th class="range__table-head">Объём</th>
-              <th class="range__table-head">Стоимость</th>
-            </tr>
-            <tr class="range__table-row">
-              <td class="range__table-data">Классика</td>
-              <td class="range__table-data">&lt; 1,2%</td>
-              <td class="range__table-data">33</td>
-              <td class="range__table-data">330 мл</td>
-              <td class="range__table-data">120 Р.</td>
-            </tr>
-            <tr class="range__table-row">
-              <td class="range__table-data">Шабаш</td>
-              <td class="range__table-data">&gt; 1,2%</td>
-              <td class="range__table-data">45</td>
-              <td class="range__table-data">330 мл</td>
-              <td class="range__table-data">250 Р.</td>
-            </tr>
-            <tr class="range__table-row">
-              <td class="range__table-data">
-                Вахтёр <span class="range__table-new">Новинка</span>
-              </td>
-              <td class="range__table-data">&lt; 1%</td>
-              <td class="range__table-data">35</td>
-              <td class="range__table-data">0,5 л</td>
-              <td class="range__table-data">150 Р.</td>
-            </tr>
-            <tr class="range__table-row">
-              <td class="range__table-data">
-                Романтик <span class="range__table-new">Новинка</span>
-              </td>
-              <td class="range__table-data">&lt; 0,5%</td>
-              <td class="range__table-data">27</td>
-              <td class="range__table-data">0,5 л</td>
-              <td class="range__table-data">90 Р.</td>
-            </tr>
+          <table class="range-table">
+            <thead>
+              <tr class="range-table__row">
+                <th class="range-table__head">Название</th>
+                <th class="range-table__head">Алк.</th>
+                <th class="range-table__head">Ккал</th>
+                <th class="range-table__head">Объём</th>
+                <th class="range-table__head range-table__head_right-column">
+                  Стоимость
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="range-table__row">
+                <td class="range-table__data range-table__data_name">
+                  Классика
+                </td>
+                <td class="range-table__data">&lt; 1,2%</td>
+                <td class="range-table__data">33</td>
+                <td class="range-table__data">330 мл</td>
+                <td class="range-table__data range-table__data_right-column">
+                  120 Р.
+                </td>
+              </tr>
+              <tr class="range-table__row">
+                <td class="range-table__data range-table__data_name">Шабаш</td>
+                <td class="range-table__data">&gt; 1,2%</td>
+                <td class="range-table__data">45</td>
+                <td class="range-table__data">330 мл</td>
+                <td class="range-table__data range-table__data_right-column">
+                  250 Р.
+                </td>
+              </tr>
+              <tr class="range-table__row">
+                <td class="range-table__data range-table__data_name">
+                  Вахтёр <sup class="range-table__new">Новинка</sup>
+                </td>
+                <td class="range-table__data">&lt; 1%</td>
+                <td class="range-table__data">35</td>
+                <td class="range-table__data">0,5 л</td>
+                <td class="range-table__data range-table__data_right-column">
+                  150 Р.
+                </td>
+              </tr>
+              <tr class="range-table__row">
+                <td class="range-table__data range-table__data_name">
+                  Романтик <sup class="range-table__new">Новинка</sup>
+                </td>
+                <td class="range-table__data">&lt; 0,5%</td>
+                <td class="range-table__data">27</td>
+                <td class="range-table__data">0,5 л</td>
+                <td class="range-table__data range-table__data_right-column">
+                  90 Р.
+                </td>
+              </tr>
+            </tbody>
           </table>
         </div>
       </section>
       <!-- Секция, блок order START -->
-      <section class="order">
+      <section id="order" class="order">
         <div class="container">
           <h2 class="section-title">Заказать</h2>
           <p class="order__text">
@@ -252,75 +271,92 @@
             цены! Закажите настоящий крафтовый квас сейчас. При заказе от 10
             баррелей — скидка 10%.
           </p>
-          <form class="order__form" action="" method="post">
-            <label class="order__label" for="order__user-name"
-              >Представьтесь:</label
-            >
+          <form class="order__form" action method="post">
+            <div class="order__wrapper">
+              <label class="order__label" for="order__user-name"
+                >Представьтесь:</label
+              >
+              <input
+                class="input order__user-name"
+                type="text"
+                name="order__user-name"
+                id="order__user-name"
+              />
+            </div>
+            <div class="order__wrapper order__wrapper_shrink">
+              <label class="order__label" for="order__user-phone-main"
+                >Номер телефона:</label
+              >
+              <input
+                class="input order__user-phone-main"
+                type="tel"
+                name="order__user-phone-main"
+                id="order__user-phone-main"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+              />
+            </div>
+            <div class="order__wrapper order__wrapper_shrink">
+              <label class="order__label" for="order__user-phone-extra"
+                >Доп. номер:</label
+              >
+              <input
+                class="input order__user-phone-extra"
+                type="tel"
+                name="order__user-phone-extra"
+                id="order__user-phone-extra"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+              />
+            </div>
+            <div class="order__wrapper">
+              <label class="order__label" for="order__user-email">Email:</label>
+              <input
+                class="input order__user-email"
+                type="email"
+                name="order__user-email"
+                id="order__user-email"
+              />
+            </div>
+            <div class="order__wrapper">
+              <label class="order__label" for="order__user-order-volume"
+                >Объём заказа:</label
+              >
+              <br />
+              <select
+                class="input order__user-order-volume"
+                name="order__user-order-volume"
+                id="order__user-order-volume"
+              >
+                <option class="order__user-order-value" value="5-10">
+                  От 5 до 10 баррелей в неделю
+                </option>
+              </select>
+            </div>
+            <div class="order__wrapper">
+              <label class="order__label" for="order__user-comment"
+                >Доп. комментарий:</label
+              >
+              <textarea
+                class="input order__user-comment"
+                name="order__user-comment"
+                id="order__user-comment"
+                cols="50"
+                rows="5"
+              ></textarea>
+            </div>
+            <div class="order__wrapper">
+              <input
+                class="order__user-spam"
+                type="checkbox"
+                name="order__user-spam"
+                id="order__user-spam"
+                checked
+              />
+              <label class="order__label" for="order__user-spam"
+                >Я согласен получать квасную рассылку</label
+              >
+            </div>
             <input
-              class="order__user-name"
-              type="text"
-              name="order__user-name"
-              id="order__user-name"
-            />
-            <label class="order__label" for="order__user-phone-main"
-              >Номер телефона:</label
-            >
-            <input
-              class="order__user-phone-main"
-              type="tel"
-              name="order__user-phone-main"
-              id="order__user-phone-main"
-            />
-            <label class="order__label" for="order__user-phone-extra"
-              >Доп. номер:</label
-            >
-            <input
-              class="order__user-phone-extra"
-              type="tel"
-              name="order__user-phone-extra"
-              id="order__user-phone-extra"
-            />
-            <label class="order__label" for="order__user-email">Email:</label>
-            <input
-              class="order__user-email"
-              type="email"
-              name="order__user-email"
-              id="order__user-email"
-            />
-            <label class="order__label" for="order__user-order-volume"
-              >Объём заказа:</label
-            >
-            <select
-              class="order__user-order-volume"
-              name="order__user-order-volume"
-              id="order__user-order-volume"
-            >
-              <option class="order__user-order-value" value="5-10">
-                От 5 до 10 баррелей в неделю
-              </option>
-            </select>
-            <label class="order__label" for="order__user-comment"
-              >Доп. комментарий:</label
-            >
-            <textarea
-              class="order__user-comment"
-              name="order__user-comment"
-              id="order__user-comment"
-              cols="50"
-              rows="5"
-            ></textarea>
-            <input
-              class="order__user-spam"
-              type="checkbox"
-              name="order__user-spam"
-              id="order__user-spam"
-              checked
-            />
-            <label class="order__label" for="order__user-spam"
-              >Я согласен получать квасную рассылку</label
-            >
-            <input
-              class="order__button"
+              class="button order__button"
               type="submit"
               value="Отправить заказ"
             />
@@ -329,12 +365,12 @@
       </section>
       <!-- FOOTER START -->
       <footer class="footer">
-        <div class="container">
-          <nav class="menu">
-            <a href="" class="logo"
+        <div class="container container_shaped">
+          <nav class="menu footer-row">
+            <a href="#" class="logo logo_place_footer"
               ><img class="logo__pic" src="./img/logo.png" alt="Логотип Кваст"
             /></a>
-            <ul class="menu__links">
+            <ul class="menu__links menu__links_place_footer">
               <li class="menu__link-item">
                 <a href="#" class="menu__link">История</a>
               </li>
@@ -349,49 +385,49 @@
               </li>
             </ul>
           </nav>
-          <ul class="footer__column-links">
-            <li>
-              <a
-                href="#"
-                target="_blank"
-                class="footer__column-link link-opacity"
-              >
-                <img src="" alt="" class="footer__column-icon" />Инстаграм
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                target="_blank"
-                class="footer__column-link link-opacity"
-              >
-                <img src="" alt="" class="footer__column-icon" />Фейсбук
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                target="_blank"
-                class="footer__column-link link-opacity"
-              >
-                <img src="" alt="" class="footer__column-icon" />Вконтакте
-              </a>
-            </li>
-          </ul>
-          <p class="footer__column-text">
-            При перепечатке материалов ссылка на сайт обязательна!
-          </p>
-          <div class="footer__column">
-            <a href="" class="footer__column-logo-link"
-              ><img
-                src="./img/htmlacademy.png"
-                alt=""
-                class="footer__column-logo-pic"
+          <div class="footer-row">
+            <ul class="footer__links">
+              <li>
+                <a
+                  href="#"
+                  target="_blank"
+                  class="footer__link-button footer__link-button_insta"
+                  >Инстаграм</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  target="_blank"
+                  class="footer__link-button footer__link-button_fb"
+                  >Фейсбук</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  target="_blank"
+                  class="footer__link-button footer__link-button_vk"
+                  >Вконтакте
+                </a>
+              </li>
+            </ul>
+            <p class="footer__text">
+              При перепечатке материалов ссылка на сайт обязательна!
+            </p>
+            <a
+              href="https://htmlacademy.ru/about"
+              class="footer__link-button footer__link-button_dev"
+              ><img src="./img/htmlacademy.png" alt="" class="footer__dev-logo"
             /></a>
-            <p class="footer__column-text">
+            <a
+              href="https://htmlacademy.ru/study"
+              target="_blank"
+              class="footer__text"
+            >
               <span class="span-accent">Разработчик:</span>
               HTML Academy
-            </p>
+            </a>
           </div>
         </div>
       </footer>
