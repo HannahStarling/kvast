@@ -1,0 +1,13 @@
+.footer__link-button_item_dev {
+  margin: 0 10px 0 100px;
+}
+
+.footer__link-button_item_dev:hover {
+  border: 1px solid #605037;
+  background: #1b1b1b;
+}
+
+.footer__link-button_item_dev:active {
+  border: 1px solid #2d281f;
+  background: #0e0e0e;
+}

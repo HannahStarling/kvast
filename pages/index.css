@@ -58,3 +58,22 @@
 @import url(../blocks/press/__quote-text/press__quote-text.css);
 @import url(../blocks/press/__quote-btn/press__quote-btn.css);
 @import url(../blocks/press/__quote-author/press__quote-author.css);
+
+@import url(../blocks/range/range.css);
+@import url(../blocks/range-table/range-table.css);
+@import url(../blocks/range-table/__row/range-table__row.css);
+@import url(../blocks/range-table/__new/range-table__new.css);
+@import url(../blocks/range-table/__head/range-table__head.css);
+@import url(../blocks/range-table/__head/_align/range-table__head_align_right.css);
+@import url(../blocks/range-table/__data/range-table__data.css);
+@import url(../blocks/range-table/__data/_name/range-table__data_name.css);
+@import url(../blocks/range-table/__data/_align/range-table__data_align_right.css);
+
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__wrapper/form__wrapper.css);
+@import url(../blocks/form/__wrapper/_shrink/form__wrapper_shrink.css);
+@import url(../blocks/form/__text/form__text.css);
+@import url(../blocks/form/__label/form__label.css);
+@import url(../blocks/form/__form-zone/form__form-zone.css);
+@import url(../blocks/form/__button/form__button.css);
+@import url(../blocks/input/input.css);

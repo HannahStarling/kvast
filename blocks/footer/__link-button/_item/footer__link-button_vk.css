@@ -1,0 +1,14 @@
+.footer__link-button_item_vk {
+  background: #1b1b1b url(./img/icon-vk.png) no-repeat center;
+}
+
+.footer__link-button_item_vk:hover {
+  background: #1b1b1b url(./img/icon-vk.png) no-repeat center;
+  border: 1px solid #605037;
+}
+
+.footer__link-button_item_vk:active {
+  background: #0e0e0e url(./img/icon-vk.png) no-repeat center;
+  border: 1px solid #2d281f;
+  background: #1b1b1b;
+}

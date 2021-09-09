@@ -1,0 +1,13 @@
+.footer__link-button_item_fb {
+  background: #1b1b1b url(./img/icon-fb.png) no-repeat center;
+}
+.footer__link-button_item_fb:hover {
+  background: #1b1b1b url(./img/icon-fb.png) no-repeat center;
+  border: 1px solid #605037;
+}
+
+.footer__link-button_item_fb:active {
+  background: #0e0e0e url(./img/icon-fb.png) no-repeat center;
+  border: 1px solid #2d281f;
+  background: #1b1b1b;
+}

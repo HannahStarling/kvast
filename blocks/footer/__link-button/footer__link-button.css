@@ -1,0 +1,11 @@
+.footer__link-button {
+  text-decoration: none;
+  color: #989898;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 72px;
+  height: 66px;
+  background: #1b1b1b;
+  border: 1px solid rgba(255, 203, 120, 0.1);
+}

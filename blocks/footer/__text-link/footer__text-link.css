@@ -1,0 +1,14 @@
+.footer__text-link {
+  text-decoration: none;
+  color: #989898;
+}
+
+.footer__text-link:hover {
+  color: #989898;
+  opacity: 0.5;
+}
+
+.footer__text-link:active {
+  color: #989898;
+  opacity: 0.5;
+}

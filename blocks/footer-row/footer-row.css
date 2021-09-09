@@ -1,0 +1,7 @@
+.footer-row {
+  width: 1015px;
+  margin: 0 auto 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
