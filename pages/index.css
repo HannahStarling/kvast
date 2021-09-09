@@ -18,3 +18,17 @@
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header-title/header-title.css);
+
+@import url(../blocks/new/new.css);
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/__title/cards__title.css);
+@import url(../blocks/cards/__text/cards__text.css);
+@import url(../blocks/cards/__table/cards__table.css);
+@import url(../blocks/cards/__table-ingridients/cards__table-ingridients.css);
+@import url(../blocks/cards/__table-heading/cards__table-heading.css);
+@import url(../blocks/cards/__table-data/cards__table-data.css);
+@import url(../blocks/cards/__price/cards__price.css);
+@import url(../blocks/cards/__pic/cards__pic.css);
+@import url(../blocks/cards/__list/cards__list.css);
+@import url(../blocks/cards/__item/cards__item.css);
+@import url(../blocks/cards/__info/cards__info.css);

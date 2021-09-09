@@ -1,0 +1,9 @@
+.cards__table-heading {
+  box-sizing: border-box;
+  font-size: 16px;
+  min-width: 77px;
+  padding: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 1px solid #e5e5e5;
+}

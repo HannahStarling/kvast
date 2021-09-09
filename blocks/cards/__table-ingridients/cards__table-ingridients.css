@@ -1,0 +1,9 @@
+.cards__table-ingridients {
+  caption-side: bottom;
+  text-align: left;
+  max-width: 150px;
+  margin-top: 11px;
+  font-size: 14px;
+  line-height: 1.714;
+  color: #444;
+}

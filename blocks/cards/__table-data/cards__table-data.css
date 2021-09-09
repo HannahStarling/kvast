@@ -1,0 +1,9 @@
+.cards__table-data {
+  box-sizing: border-box;
+  min-width: 72px;
+  font-size: 16px;
+  padding: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 1px solid #e5e5e5;
+}
