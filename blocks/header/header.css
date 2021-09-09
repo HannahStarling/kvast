@@ -1,11 +1,8 @@
 .header {
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
-  position: relative;
-  background: #f1f1f1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  overflow: hidden;
+  height: 550px;
+  box-sizing: border-box;
+  padding: 60px 0;
+  color: #fff;
+  background: #834700 url(../../img/header/wheat-back.jpg) no-repeat bottom;
+  background-size: cover;
 }
