@@ -32,3 +32,13 @@
 @import url(../blocks/cards/__list/cards__list.css);
 @import url(../blocks/cards/__item/cards__item.css);
 @import url(../blocks/cards/__info/cards__info.css);
+
+@import url(../blocks/highlights/highlights.css);
+@import url(../blocks/highlights/__items/highlights__items.css);
+@import url(../blocks/highlights/__item/highlights__item.css);
+@import url(../blocks/highlights/__item-title/highlights__item-title.css);
+@import url(../blocks/highlights/__item-text/highlights__item-text.css);
+
+@import url(../blocks/highlights/_pic/highlights__item_brew-pic.css);
+@import url(../blocks/highlights/_pic/highlights__item_matreshka-pic.css);
+@import url(../blocks/highlights/_pic/highlights__item_thumbsup-pic.css);

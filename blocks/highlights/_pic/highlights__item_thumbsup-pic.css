@@ -1,0 +1,3 @@
+.highlights__item_pic_thumbsup::before {
+  content: url(./img/icon-thumbsup.png);
+}

@@ -1,0 +1,14 @@
+.highlights__item {
+  margin: 0 auto;
+  padding: 0 90px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 214px;
+  border-right: 1px solid #e5b66c;
+}
+
+.highlights__item:last-of-type {
+  border: none;
+}

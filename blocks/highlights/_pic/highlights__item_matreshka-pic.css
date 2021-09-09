@@ -1,0 +1,3 @@
+.highlights__item_pic_matreshka::before {
+  content: url(./img/icon-matreshka.png);
+}
