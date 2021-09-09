@@ -42,3 +42,13 @@
 @import url(../blocks/highlights/_pic/highlights__item_brew-pic.css);
 @import url(../blocks/highlights/_pic/highlights__item_matreshka-pic.css);
 @import url(../blocks/highlights/_pic/highlights__item_thumbsup-pic.css);
+
+@import url(../blocks/history/history.css);
+@import url(../blocks/history/__list/history__list.css);
+@import url(../blocks/history/__item/history__item.css);
+@import url(../blocks/history/__item-title/history__item-title.css);
+@import url(../blocks/history/__item-text/history__item-text.css);
+@import url(../blocks/history/__item-pic/history__item-pic.css);
+@import url(../blocks/history/__item-pic-caption/history__item-pic-caption.css);
+@import url(../blocks/history/__item-pic-caption-link/history__item-pic-caption-link.css);
+@import url(../blocks/history/__item-block/history__item-block.css);

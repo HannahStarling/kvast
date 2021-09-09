@@ -1,0 +1,12 @@
+.history__item-pic-caption-link {
+  color: #834700;
+  text-decoration: none;
+}
+
+.history__item-pic-caption-link:hover {
+  color: #6a3900;
+}
+
+.history__item-pic-caption-link:active {
+  color: #cab7a2;
+}

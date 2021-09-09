@@ -1,0 +1,9 @@
+.history__list {
+  margin: 0;
+  padding: 0;
+  width: 800px;
+  list-style: none;
+  display: grid;
+  grid-row-gap: 60px;
+  grid-template-rows: 1fr 1fr;
+}
