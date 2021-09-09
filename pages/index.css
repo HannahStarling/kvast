@@ -77,3 +77,15 @@
 @import url(../blocks/form/__form-zone/form__form-zone.css);
 @import url(../blocks/form/__button/form__button.css);
 @import url(../blocks/input/input.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer-row/footer-row.css);
+@import url(../blocks/footer/__text/footer__text.css);
+@import url(../blocks/footer/__text-link/footer__text-link.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__link-button/footer__link-button.css);
+@import url(../blocks/footer/__link-button/_item/footer__link-button_insta.css);
+@import url(../blocks/footer/__link-button/_item/footer__link-button_vk.css);
+@import url(../blocks/footer/__link-button/_item/footer__link-button_fb.css);
+@import url(../blocks/footer/__link-button/_item/footer__link-button_dev.css);
+@import url(../blocks/footer/__dev-logo/footer__dev-logo.css);

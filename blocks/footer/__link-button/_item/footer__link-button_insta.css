@@ -1,13 +1,16 @@
 .footer__link-button_item_insta {
-  background: #1b1b1b url(./img/icon-insta.png) no-repeat center;
+  background: #1b1b1b url(../../../../img/footer/icon-insta.png) no-repeat
+    center;
 }
 
 .footer__link-button_item_insta:hover {
-  background: #1b1b1b url(./img/icon-insta.png) no-repeat center;
+  background: #1b1b1b url(../../../../img/footer/icon-insta.png) no-repeat
+    center;
   border: 1px solid #605037;
 }
 
 .footer__link-button_item_insta:active {
-  background: #0e0e0e url(./img/icon-insta.png) no-repeat center;
+  background: #0e0e0e url(../../../../img/footer/icon-insta.png) no-repeat
+    center;
   border: 1px solid #2d281f;
 }

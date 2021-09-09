@@ -10,7 +10,7 @@
 }
 
 .press__quote::before {
-  content: url(../../img/press/quotes.png);
+  content: url(../../../img/press/quotes.png);
   position: absolute;
   top: 5px;
   left: -105px;
