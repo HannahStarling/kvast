@@ -1,0 +1,16 @@
+.form__button {
+  color: #fff;
+  background: #834700;
+  border: 3px solid #834700;
+}
+.form__button:hover {
+  color: #fff;
+  background: #6a3900;
+  border: 3px solid #6a3900;
+}
+
+.form__button:active {
+  color: #92755e; /* #a08874 */
+  background: #6a3900;
+  border: 3px solid #6a3900;
+}
