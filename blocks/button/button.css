@@ -1,0 +1,23 @@
+.button {
+  text-decoration: none;
+  color: #834700;
+  border: 3px solid #834700;
+  padding: 15px 20px;
+  font-weight: bold;
+  line-height: 20px;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  box-sizing: border-box;
+  min-width: 110px;
+}
+
+.button:hover {
+  color: #6a3900;
+  border: 3px solid #6a3900;
+}
+
+.button:active {
+  color: #d2c3b2;
+  border: 3px solid #d2c3b2;
+}
