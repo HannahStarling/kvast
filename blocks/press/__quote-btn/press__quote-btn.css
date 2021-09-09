@@ -1,0 +1,16 @@
+.press__quote-btn {
+  color: #bcb6ab;
+  border: 3px solid #a6a097;
+}
+
+.press__quote-btn:hover {
+  background: #a6a097;
+  border: 3px solid #a6a097;
+  color: #fff;
+}
+
+.press__quote-btn:active {
+  background: #8f8a81;
+  color: #b5b2ad;
+  border: 3px solid #8f8a81;
+}

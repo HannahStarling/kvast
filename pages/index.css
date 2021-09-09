@@ -52,3 +52,9 @@
 @import url(../blocks/history/__item-pic-caption/history__item-pic-caption.css);
 @import url(../blocks/history/__item-pic-caption-link/history__item-pic-caption-link.css);
 @import url(../blocks/history/__item-block/history__item-block.css);
+
+@import url(../blocks/press/press.css);
+@import url(../blocks/press/__quote/press__quote.css);
+@import url(../blocks/press/__quote-text/press__quote-text.css);
+@import url(../blocks/press/__quote-btn/press__quote-btn.css);
+@import url(../blocks/press/__quote-author/press__quote-author.css);

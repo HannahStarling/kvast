@@ -1,0 +1,17 @@
+.press__quote {
+  position: relative;
+  margin: 70px 0 0;
+  padding: 0;
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.press__quote::before {
+  content: url(../../img/press/quotes.png);
+  position: absolute;
+  top: 5px;
+  left: -105px;
+}
