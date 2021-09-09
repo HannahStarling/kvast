@@ -1,0 +1,12 @@
+.range-table__new {
+  padding: 2px 5px;
+  color: #fff;
+  background-color: #000;
+  border-radius: 2px;
+  width: 50px;
+  height: 13px;
+  margin-left: 18px;
+  font-size: 8px;
+  line-height: 1;
+  box-sizing: border-box;
+}

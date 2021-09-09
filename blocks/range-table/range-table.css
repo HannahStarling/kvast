@@ -1,0 +1,9 @@
+.range-table {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  width: 100%;
+  font-weight: normal;
+  text-transform: uppercase;
+  box-sizing: border-box;
+}

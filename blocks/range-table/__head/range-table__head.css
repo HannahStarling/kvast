@@ -1,0 +1,8 @@
+.range-table__head {
+  font-size: 11px;
+  color: #999;
+  line-height: 2.5;
+  height: 75px;
+  padding: 15px 0;
+  box-sizing: border-box;
+}
