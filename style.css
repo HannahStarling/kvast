@@ -23,6 +23,14 @@
   height: 76px;
 }
 
+.logo:hover {
+  opacity: 0.8;
+}
+
+.logo:active {
+  opacity: 0.8;
+}
+
 /* MENU */
 .menu {
   display: flex;
@@ -51,11 +59,19 @@
   color: #fff;
 }
 
+.menu__link:hover {
+  color: #ffcb78;
+}
+
+.menu__link:active {
+  color: #7a5f35;
+}
+
 /* BUTTON */
 .button {
   text-decoration: none;
   color: #834700;
-  border: 3px solid #6a3900;
+  border: 3px solid #834700;
   padding: 15px 20px;
   font-weight: bold;
   line-height: 20px;
@@ -64,6 +80,34 @@
   text-align: center;
   box-sizing: border-box;
   min-width: 110px;
+}
+
+.button:hover {
+  color: #6a3900;
+  border: 3px solid #6a3900;
+}
+
+.button:active {
+  color: #d2c3b2;
+  border: 3px solid #d2c3b2;
+}
+
+.button_cards_buy {
+  color: #fff;
+  background: #834700;
+  border: 3px solid #834700;
+}
+
+.button_cards_buy:hover {
+  color: #fff;
+  background: #6a3900;
+  border: 3px solid #6a3900;
+}
+
+.button_cards_buy:active {
+  color: #92755e; /* #a08874 */
+  background: #6a3900;
+  border: 3px solid #6a3900;
 }
 
 /* HEADER */
@@ -175,12 +219,6 @@
   margin: 10px 0 60px;
 }
 
-.cards__button-buy {
-  color: #fff;
-  background: #834700;
-  border: 3px solid #834700;
-}
-
 .cards__price {
   position: absolute;
   bottom: 0;
@@ -234,15 +272,15 @@
   color: #444;
 }
 
-.highlights__item_brew-pic::before {
+.highlights__item_pic_brew::before {
   content: url(./img/icon-brew.png);
 }
 
-.highlights__item_matreshka-pic::before {
+.highlights__item_pic_matreshka::before {
   content: url(./img/icon-matreshka.png);
 }
 
-.highlights__item_thumbsup-pic::before {
+.highlights__item_pic_thumbsup::before {
   content: url(./img/icon-thumbsup.png);
 }
 
@@ -300,6 +338,14 @@
   text-decoration: none;
 }
 
+.history__item-pic-caption-link:hover {
+  color: #6a3900;
+}
+
+.history__item-pic-caption-link:active {
+  color: #cab7a2;
+}
+
 /* PRESS */
 .press {
   margin: 0 auto;
@@ -343,6 +389,23 @@
   order: 1;
 }
 
+.press__quote-btn {
+  color: #bcb6ab;
+  border: 3px solid #a6a097;
+}
+
+.press__quote-btn:hover {
+  background: #a6a097;
+  border: 3px solid #a6a097;
+  color: #fff;
+}
+
+.press__quote-btn:active {
+  background: #8f8a81;
+  color: #b5b2ad;
+  border: 3px solid #8f8a81;
+}
+
 /* RANGE */
 .range {
   width: 80%;
@@ -360,7 +423,7 @@
   text-transform: uppercase;
   box-sizing: border-box;
 }
-.range-table-row {
+.range-table__row {
   display: grid;
   border-bottom: 1px solid #e5e5e5;
   grid-template-columns: 50% 11.8% 7.7% 1fr 20%;
@@ -388,8 +451,8 @@
   color: #000;
 }
 
-.range-table__data_right-column,
-.range-table__head_right-column {
+.range-table__data_align_right,
+.range-table__head_align_right {
   text-align: right;
 }
 
@@ -406,28 +469,28 @@
   box-sizing: border-box;
 }
 
-/* ORDER */
-.order {
+/* FORM */
+.form {
   margin: 0 auto;
   background: #ffcb78;
   padding: 80px 0 130px;
 }
 
-.order__text {
+.form__text {
   margin: 70px 0;
   color: #444;
   width: 80%;
   font-size: 16px;
   line-height: 1.875;
 }
-.order__form {
+.form__form-zone {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   width: 78.5%;
 }
 
-.order__label {
+.form__label {
   font-weight: bold;
   line-height: 1.25;
   text-transform: uppercase;
@@ -444,20 +507,41 @@
   margin: 5px 0 0;
 }
 
-.order__wrapper {
+.input:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.input:focus {
+  background-color: #fff;
+  border: #fff;
+  outline: #fff;
+}
+
+.form__wrapper {
   width: 100%;
   margin: 0 0 35px;
 }
 
-.order__wrapper_shrink {
+.form__wrapper_shrink {
   width: 45%;
   margin: 0 0 30px;
 }
 
-.order__button {
+.form__button {
   color: #fff;
   background: #834700;
-  border: 2px solid #834700;
+  border: 3px solid #834700;
+}
+.form__button:hover {
+  color: #fff;
+  background: #6a3900;
+  border: 3px solid #6a3900;
+}
+
+.form__button:active {
+  color: #92755e; /* #a08874 */
+  background: #6a3900;
+  border: 3px solid #6a3900;
 }
 
 /* FOOTER */
@@ -499,33 +583,88 @@
   align-items: center;
   width: 72px;
   height: 66px;
-  background: #1b1b1b no-repeat center;
+  background: #1b1b1b;
   border: 1px solid rgba(255, 203, 120, 0.1);
 }
 
-.footer__link-button_insta {
-  background: url(./img/icon-insta.png) no-repeat center;
+.footer__link-button_item_insta {
+  background: #1b1b1b url(./img/icon-insta.png) no-repeat center;
 }
 
-.footer__link-button_fb {
-  background: url(./img/icon-fb.png) no-repeat center;
+.footer__link-button_item_insta:hover {
+  background: #1b1b1b url(./img/icon-insta.png) no-repeat center;
+  border: 1px solid #605037;
 }
 
-.footer__link-button_vk {
-  background: url(./img/icon-vk.png) no-repeat center;
+.footer__link-button_item_insta:active {
+  background: #0e0e0e url(./img/icon-insta.png) no-repeat center;
+  border: 1px solid #2d281f;
 }
 
-.footer__link-button_dev {
+.footer__link-button_item_fb {
+  background: #1b1b1b url(./img/icon-fb.png) no-repeat center;
+}
+.footer__link-button_item_fb:hover {
+  background: #1b1b1b url(./img/icon-fb.png) no-repeat center;
+  border: 1px solid #605037;
+}
+
+.footer__link-button_item_fb:active {
+  background: #0e0e0e url(./img/icon-fb.png) no-repeat center;
+  border: 1px solid #2d281f;
+  background: #1b1b1b;
+}
+
+.footer__link-button_item_vk {
+  background: #1b1b1b url(./img/icon-vk.png) no-repeat center;
+}
+
+.footer__link-button_item_vk:hover {
+  background: #1b1b1b url(./img/icon-vk.png) no-repeat center;
+  border: 1px solid #605037;
+}
+
+.footer__link-button_item_vk:active {
+  background: #0e0e0e url(./img/icon-vk.png) no-repeat center;
+  border: 1px solid #2d281f;
+  background: #1b1b1b;
+}
+
+.footer__link-button_item_dev {
   margin: 0 10px 0 100px;
 }
 
+.footer__link-button_item_dev:hover {
+  border: 1px solid #605037;
+  background: #1b1b1b;
+}
+
+.footer__link-button_item_dev:active {
+  border: 1px solid #2d281f;
+  background: #0e0e0e;
+}
+
 .footer__text {
-  text-decoration: none;
   margin: 0 auto;
   width: 200px;
   font-size: 14px;
   line-height: 1.429;
   color: #989898;
+}
+
+.footer__text-link {
+  text-decoration: none;
+  color: #989898;
+}
+
+.footer__text-link:hover {
+  color: #989898;
+  opacity: 0.5;
+}
+
+.footer__text-link:active {
+  color: #989898;
+  opacity: 0.5;
 }
 
 .footer__dev-logo {
