@@ -1,0 +1,14 @@
+.menu__links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  width: 600px;
+  height: 59px;
+  margin: auto 0;
+  padding: 0;
+  list-style: none;
+  border: 0 solid rgba(255, 255, 255, 0.2);
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+}

@@ -6,4 +6,9 @@
 
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/__pic/logo__pic.css);
+@import url(../blocks/logo/_place/logo_place_footer.css);
 
+@import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/__links/menu__links.css);
+@import url(../blocks/menu/__links/_place/menu__links_place_footer.css);
+@import url(../blocks/menu/__link/menu__link.css);
