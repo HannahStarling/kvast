@@ -1,4 +1,7 @@
-.logo {
-  width: 183px;
-  height: 32px;
+.logo:hover {
+  opacity: 0.8;
+}
+
+.logo:active {
+  opacity: 0.8;
 }

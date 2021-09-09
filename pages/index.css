@@ -1,4 +1,9 @@
 @import url(../vendor/normalize.css);
+
 @import url(../blocks/page/page.css);
 @import url(../blocks/container/container.css);
 @import url(../blocks/container/container_shaped.css);
+
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/__pic/logo__pic.css);
+
