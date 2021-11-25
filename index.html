@@ -31,7 +31,7 @@
                 <a href="#range" class="menu__link">Ассортимент</a>
               </li>
               <li class="menu__link-item">
-                <a href="#form" class="menu__link">Где купить</a>
+                <a href="#order" class="menu__link">Где купить</a>
               </li>
             </ul>
           </nav>
@@ -40,78 +40,72 @@
       </header>
       <!-- Секция, блок new START -->
       <section class="new">
-        <div class="container">
+        <div class="container new__container">
           <h2 class="section-title">Новинки</h2>
-          <div class="cards">
-            <ul class="cards__list">
-              <li class="cards__item">
-                <h3 class="cards__title">Вахтёр</h3>
-                <img
-                  src="./img/new/cards/bottle-left.jpg"
-                  alt=""
-                  class="cards__pic"
-                />
-                <div class="cards__info">
-                  <table class="cards__table">
-                    <caption class="cards__table-ingridients">
-                      Ржаной хлеб, Вода, Солод, Соль
-                    </caption>
+          <ul class="cards">
+            <li class="cards__item">
+              <h3 class="cards__title">Вахтёр</h3>
+              <img
+                src="./img/new/cards/bottle-left.jpg"
+                alt=""
+                class="cards__pic"
+              />
+              <div class="cards__info">
+                <table class="cards__table">
+                  <caption class="cards__table-ingridients">
+                    Ржаной хлеб, Вода, Солод, Соль
+                  </caption>
+                  <tr class="cards__table-row">
+                    <th class="cards__table-heading">Алк.</th>
+                    <td class="cards__table-data">&lt; 1%</td>
+                  </tr>
+                  <tr class="cards__table-row">
+                    <th class="cards__table-heading">Ккал</th>
+                    <td class="cards__table-data">35</td>
+                  </tr>
+                </table>
+              </div>
+              <p class="cards__text">
+                Терпкий и мощный, вкус этого кваса взбодрит после тяжёлого дня и
+                придаст сил для вечерних приключений!
+              </p>
+              <a href="#range" class="button cards__button-info"> Подробнее </a>
+              <a href="#form" class="button button_cards_buy">Купить</a>
+              <p class="cards__price">150 Р.</p>
+            </li>
+            <li class="cards__item">
+              <h3 class="cards__title">Романтик</h3>
+              <img
+                src="./img/new/cards/bottle-right.jpg"
+                alt=""
+                class="cards__pic"
+              />
+              <div class="cards__info">
+                <table class="cards__table">
+                  <caption class="cards__table-ingridients">
+                    Ячменный хлеб, Вода, Солод, Апельсин
+                  </caption>
+                  <tbody>
                     <tr class="cards__table-row">
                       <th class="cards__table-heading">Алк.</th>
-                      <td class="cards__table-data">&lt; 1%</td>
+                      <td class="cards__table-data">&lt; 0,5%</td>
                     </tr>
                     <tr class="cards__table-row">
                       <th class="cards__table-heading">Ккал</th>
-                      <td class="cards__table-data">35</td>
+                      <td class="cards__table-data">27</td>
                     </tr>
-                  </table>
-                </div>
-                <p class="cards__text">
-                  Терпкий и мощный, вкус этого кваса взбодрит после тяжёлого дня
-                  и придаст сил для вечерних приключений!
-                </p>
-                <a href="#range" class="button cards__button-info">
-                  Подробнее
-                </a>
-                <a href="#form" class="button button_cards_buy">Купить</a>
-                <p class="cards__price">150 Р.</p>
-              </li>
-              <li class="cards__item">
-                <h3 class="cards__title">Романтик</h3>
-                <img
-                  src="./img/new/cards/bottle-right.jpg"
-                  alt=""
-                  class="cards__pic"
-                />
-                <div class="cards__info">
-                  <table class="cards__table">
-                    <caption class="cards__table-ingridients">
-                      Ячменный хлеб, Вода, Солод, Апельсин
-                    </caption>
-                    <tbody>
-                      <tr class="cards__table-row">
-                        <th class="cards__table-heading">Алк.</th>
-                        <td class="cards__table-data">&lt; 0,5%</td>
-                      </tr>
-                      <tr class="cards__table-row">
-                        <th class="cards__table-heading">Ккал</th>
-                        <td class="cards__table-data">27</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-                <p class="cards__text">
-                  Лёгкий и освежающий напиток поможет сохранять отличное
-                  настроение в течение всего дня.
-                </p>
-                <a href="#range" class="button button_cards_info">
-                  Подробнее
-                </a>
-                <a href="#form" class="button button_cards_buy">Купить</a>
-                <p class="cards__price">90 Р.</p>
-              </li>
-            </ul>
-          </div>
+                  </tbody>
+                </table>
+              </div>
+              <p class="cards__text">
+                Лёгкий и освежающий напиток поможет сохранять отличное
+                настроение в течение всего дня.
+              </p>
+              <a href="#range" class="button button_cards_info"> Подробнее </a>
+              <a href="#form" class="button button_cards_buy">Купить</a>
+              <p class="cards__price">90 Р.</p>
+            </li>
+          </ul>
         </div>
       </section>
       <!-- Секция, блок highlights START -->
@@ -143,7 +137,7 @@
       </section>
       <!-- Секция, блок history START -->
       <section id="history" class="history">
-        <div class="container">
+        <div class="container history__container">
           <h2 class="section-title">Немного истории</h2>
           <ul class="history__list">
             <li class="history__item">
@@ -222,7 +216,7 @@
       </section>
       <!-- Секция, блок range START -->
       <section id="range" class="range">
-        <div class="container">
+        <div class="container range__container">
           <h2 class="section-title">Ассортимент</h2>
           <table class="range-table">
             <thead>
@@ -284,103 +278,90 @@
         </div>
       </section>
       <!-- Секция, блок form START -->
-      <section id="form" class="form">
-        <div class="container">
+      <section id="order" class="order">
+        <div class="container order__container">
           <h2 class="section-title">Заказать</h2>
-          <p class="form__text">
+          <p class="order__subtitle">
             Не ждите пока нас отрекламируют, как Вятский квас, и мы поднимем
             цены! Закажите настоящий крафтовый квас сейчас. При заказе от 10
             баррелей — скидка 10%.
           </p>
-          <form class="form__form-zone" action method="post">
-            <div class="form__wrapper">
-              <label class="form__label" for="form__user-name"
-                >Представьтесь:</label
-              >
+          <form class="form" id="order_form" name="order_form" method="post">
+            <label class="form__label" for="name">
+              Представьтесь:
               <input
-                class="input form__user-name"
+                class="form__input"
                 type="text"
-                name="form__user-name"
-                id="form__user-name"
+                name="name"
+                id="name"
+                required
               />
-            </div>
-            <div class="form__wrapper form__wrapper_shrink">
-              <label class="form__label" for="form__user-phone-main"
-                >Номер телефона:</label
-              >
+            </label>
+            <fieldset class="form__wrapper">
+              <label class="form__label" for="main-phone"
+                >Номер телефона:
+                <input
+                  class="form__input form__input_type_phone"
+                  type="tel"
+                  name="main-phone"
+                  id="main-phone"
+                  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                  required
+              /></label>
+              <label class="form__label" for="extra-phone"
+                >Доп. номер:
+                <input
+                  class="form__input form__input_type_phone"
+                  type="tel"
+                  name="extra-phone"
+                  id="extra-phone"
+                  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                  required
+                />
+              </label>
+            </fieldset>
+            <label class="form__label" for="email"
+              >Email:
               <input
-                class="input form__user-phone-main"
-                type="tel"
-                name="form__user-phone-main"
-                id="form__user-phone-main"
-                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-              />
-            </div>
-            <div class="form__wrapper form__wrapper_shrink">
-              <label class="form__label" for="form__user-phone-extra"
-                >Доп. номер:</label
-              >
-              <input
-                class="input form__user-phone-extra"
-                type="tel"
-                name="form__user-phone-extra"
-                id="form__user-phone-extra"
-                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-              />
-            </div>
-            <div class="form__wrapper">
-              <label class="form__label" for="form__user-email">Email:</label>
-              <input
-                class="input form__user-email"
+                class="form__input"
                 type="email"
-                name="form__user-email"
-                id="form__user-email"
-              />
-            </div>
-            <div class="form__wrapper">
-              <label class="form__label" for="form__user-form-volume"
-                >Объём заказа:</label
-              >
-              <br />
+                name="email"
+                id="email"
+                required
+            /></label>
+            <label class="form__label" for="order-volume"
+              >Объём заказа:<br />
               <select
-                class="input form__user-form-volume"
-                name="form__user-form-volume"
-                id="form__user-form-volume"
+                class="form__input form__input_type_select"
+                name="order-volume"
+                id="order-volume"
               >
                 <option class="form__user-form-value" value="5-10">
                   От 5 до 10 баррелей в неделю
                 </option>
-              </select>
-            </div>
-            <div class="form__wrapper">
-              <label class="form__label" for="form__user-comment"
-                >Доп. комментарий:</label
-              >
-              <textarea
-                class="input form__user-comment"
-                name="form__user-comment"
-                id="form__user-comment"
+              </select></label
+            >
+            <label class="form__label" for="comment"
+              >Доп. комментарий:<textarea
+                class="form__input"
+                name="comment"
+                id="comment"
                 cols="50"
                 rows="5"
               ></textarea>
-            </div>
-            <div class="form__wrapper">
-              <input
-                class="form__user-spam"
+            </label>
+            <label class="form__label form__label_type_checkbox" for="mailing"
+              ><input
+                class="form__input form__input_type_checkbox"
                 type="checkbox"
-                name="form__user-spam"
-                id="form__user-spam"
+                name="mailing"
+                id="mailing"
                 checked
-              />
-              <label class="form__label" for="form__user-spam"
-                >Я согласен получать квасную рассылку</label
-              >
-            </div>
-            <input
-              class="button form__button"
-              type="submit"
-              value="Отправить заказ"
-            />
+              />Я согласен получать квасную рассылку</label
+            >
+            <button class="button form__button" type="submit">
+              Отправить заказ
+            </button>
           </form>
         </div>
       </section>
