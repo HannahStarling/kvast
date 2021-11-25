@@ -1,7 +1,0 @@
-.cards__list {
-  margin: 75px 0 0;
-  padding: 0;
-  list-style: none;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
