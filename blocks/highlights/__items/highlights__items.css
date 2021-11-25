@@ -1,6 +1,6 @@
 .highlights__items {
   margin: 0 auto;
-  padding: 45px 0;
+  padding: 0;
   list-style: none;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
