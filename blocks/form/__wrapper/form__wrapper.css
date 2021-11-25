@@ -1,4 +1,8 @@
 .form__wrapper {
+  margin: 0;
+  padding: 0;
+  border: none;
+  display: flex;
+  gap: 50px;
   width: 100%;
-  margin: 0 0 35px;
 }

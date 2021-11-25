@@ -1,4 +1,5 @@
 .form__button {
+  width: fit-content;
   color: #fff;
   background: #834700;
   border: 3px solid #834700;

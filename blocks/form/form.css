@@ -1,5 +1,7 @@
 .form {
-  margin: 0 auto;
-  background: #ffcb78;
-  padding: 80px 0 130px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 32px;
+  width: 78.5%;
 }
